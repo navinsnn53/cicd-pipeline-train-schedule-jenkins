@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Testname"){
             steps {
-                echo "Test stage"
+                echo "Test stage india"
             }
         }
     }
