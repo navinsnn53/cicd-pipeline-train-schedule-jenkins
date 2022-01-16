@@ -14,10 +14,7 @@ pipeline {
         stage("foo") {
             steps {
                 echo "booleanExample: ${params.booleanExample}"
-                echo "stringExample: ${params.stringExample}"
-                echo "textExample: ${params.textExample}"
-                echo "choiceExample: ${params.choiceExample}"
-                echo "passwordExample: ${params.passwordExample}"
+        
             }
         }
     }
