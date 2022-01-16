@@ -14,6 +14,7 @@ pipeline {
         stage("foo") {
             steps {
                 echo "booleanExample: ${params.booleanExample}"
+                echo "StringInput: ${params.stringExample}"
         
             }
         }
